@@ -6,13 +6,12 @@ body{
   display: inline-block;
   margin-left:400px ;
  background-color: #2C5FCD;
-  border: 1PX solid;
-  border-radius: 2px;
+  
 }
 
 .logo{
-  margin-left:35px ;
-  padding-top:20px ;
+max-width: 1680px;
+margin: 0 auto;
 }
 .nav ul{
   list-style: none;
@@ -37,7 +36,7 @@ body{
 }
 .main-manu a{
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
   
 }
 .main-manu{
@@ -64,18 +63,21 @@ body{
 }
 .hero-banner{
   background-image: url(img/backaround.png);
-  background-size: contain;
+  background-size: cover;
   padding: 173px 0 165px;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .container{
-  max-width: 520px;
+  max-width: 1600px;
+  margin: 0 auto;
   
 }
 .blog-item{
   display:flex;
+  max-width: 1680px;
+  margin: 0 auto;
   
 }
 .band-text{
@@ -102,10 +104,10 @@ body{
 }
 .footer-border{
   padding-left: 162px;
+
 }
 .logo-section{
-  max-width: 1920px;
-}
-.img-section{
-  max-width: 1920px;
+  background-color: #F2F4F7;
+
+
 }
